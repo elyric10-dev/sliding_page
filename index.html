@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="pages">
+            <div class="page one">
+                <h1>Page 01</h1>
+                <div>
+                    <span class="next" onclick="slide('next')">Next</span>
+                </div>
+            </div>
+            <div class="page two">
+                <h1>Page 02</h1>
+                <div>
+                    <span class="back" onclick="slide('back')">Back</span>
+                    <span class="next" onclick="slide('next')">Next</span>
+                </div>
+            </div>
+            <div class="page three">
+                <h1>Page 03</h1>
+                <div>
+                    <span class="back" onclick="slide('back')">Back</span>
+                    <span class="next" onclick="slide('next')">Next</span>
+                </div>
+            </div>
+            <div class="page four homepage">
+                <h1>Page 04</h1>
+                <div>
+                    <span class="back" onclick="slide('back')">Back</span>
+                </div>
+            </div>
+            <span class="home" onclick="slide('homepage')">homepage</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
